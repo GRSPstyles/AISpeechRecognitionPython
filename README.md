@@ -1,18 +1,8 @@
-# AISpeechRecognitionPython
+# Python Projects
 
-A simple command-line speech recognition tool. It listens through your microphone and prints what you said, using the SpeechRecognition library and PyAudio.
+Original Python projects I have built while studying IT and cybersecurity. Each folder has its own README with setup steps and details.
 
-## Install
-
-Install the two Python libraries.
-
-    pip install SpeechRecognition pyaudio
-
-On macOS, install PortAudio first with `brew install portaudio`.
-On Linux (Debian or Ubuntu), install it first with `sudo apt install portaudio19-dev`.
-
-## Run
-
-    python SpeechRec.py
-
-Speak when you see "Please say something..." and the text will print to the screen. An internet connection is required, since it uses Google's free speech-to-text service.
+| Project | Description |
+| --- | --- |
+| [windows-event-log-parser](windows-event-log-parser) | Menu-driven tool that triages Windows Security Event Log CSVs by flagging failed logon spikes, suspicious tools, and key Event IDs |
+| [speech-recognition](speech-recognition) | Command-line tool that listens through your microphone and prints what you said |
